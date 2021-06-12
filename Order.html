@@ -48,8 +48,8 @@
 <div class="row">
 
     <form id="myform" action="Action.html" data-aos="fade-right" onsubmit="validation()">
-        <input id="user" type="text" placeholder="your first name" class="box" required>
-        <input id="user2" type="text" placeholder="your last name" class="box" required>
+        <input id="user" type="text" placeholder="your first name" class="box" pattern="[A-Za-z ]+$" required>
+        <input id="user2" type="text" placeholder="your last name" class="box" pattern="[A-Za-z ]+$" required>
         <select id="Gender" name="Gender" class="box" required>
         <option value="Male">Male</option>
         <option value="Female">Female</option>
